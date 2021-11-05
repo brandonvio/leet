@@ -11,5 +11,6 @@ phases:
   build:
     commands:
       # service
-      - pip install pytest
+      - cd $CODEBUILD_SRC_DIR/dsa-pythong
+      - pip install requirements
       - pytest
