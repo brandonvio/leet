@@ -1,0 +1,19 @@
+curl 'https://leetcode.com/graphql/' \
+-H 'authority: leetcode.com' \
+-H 'sec-ch-ua: "Microsoft Edge";v="95", "Chromium";v="95", ";Not A Brand";v="99"' \
+-H 'authorization: ' \
+-H 'x-csrftoken: n4vVR50dXMTH51EMydbdT6cd5LcCS7KPLrpEIRrQf1EKpB8HcC3BBhckV0aZWZ25' \
+-H 'sec-ch-ua-mobile: ?0' \
+-H 'content-type: application/json' \
+-H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30' \
+-H 'sec-ch-ua-platform: "macOS"' \
+-H 'accept: */*' \
+-H 'origin: https://leetcode.com' \
+-H 'sec-fetch-site: same-origin' \
+-H 'sec-fetch-mode: cors' \
+-H 'sec-fetch-dest: empty' \
+-H 'referer: https://leetcode.com/problem-list/7p59281/?sorting=W3sic29ydE9yZGVyIjoiQVNDRU5ESU5HIiwib3JkZXJCeSI6IkZST05URU5EX0lEIn1d' \
+-H 'accept-language: en-US,en;q=0.9' \
+-H 'cookie: _gid=GA1.2.1173187878.1635371827; gr_user_id=7caa4e43-eb13-4a69-9199-1f7cf1408a9a; csrftoken=n4vVR50dXMTH51EMydbdT6cd5LcCS7KPLrpEIRrQf1EKpB8HcC3BBhckV0aZWZ25; messages="e7a24f1e88a44b49b2e44a2ca25f591d5a82b80c$[[\"__json_message\"\0540\05425\054\"Successfully signed in as brandonvio.\"]]"; 87b5a3c3f1a55520_gr_last_sent_cs1=brandonvio; _gcl_au=1.1.251687955.1635371855; intercom-id-pq9rak4o=40b24bcb-35d4-44c6-899b-e654c017b06e; intercom-session-pq9rak4o=; _ga_DKXQ03QCVK=GS1.1.1635371854.1.1.1635371870.44; _ga=GA1.2.844351375.1635371827; __stripe_mid=66bf1ab6-d357-4e6a-a334-6ffde4af61488403ee; NEW_PROBLEMLIST_PAGE=1; LEETCODE_SESSION=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiMjcwMTI1MyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiYzkzMGU2YWQ3M2UyMmEwN2Y5MTJlZDNkNGQ0NmFjOWY4ZjdiMmMzNSIsImlkIjoyNzAxMjUzLCJlbWFpbCI6ImJyYW5kb252aW9Ab3V0bG9vay5jb20iLCJ1c2VybmFtZSI6ImJyYW5kb252aW8iLCJ1c2VyX3NsdWciOiJicmFuZG9udmlvIiwiYXZhdGFyIjoiaHR0cHM6Ly93d3cuZ3JhdmF0YXIuY29tL2F2YXRhci85Nzc3ZWQ5ODRlNWU3N2QyNDEwMDEwZWVlYzViZGUxNS5wbmc_cz0yMDAiLCJyZWZyZXNoZWRfYXQiOjE2MzU1NDY0NDYsImlwIjoiNjcuMjA0LjE1My44MiIsImlkZW50aXR5IjoiM2E5YjNkNjE5NGEzYmYzNzIxZDNmYTJlZmNjNTIyZjEiLCJzZXNzaW9uX2lkIjoxNDA2NzkzNiwiX3Nlc3Npb25fZXhwaXJ5IjoxMjA5NjAwfQ.-yRNzfDbBegVhp2jTsAO-ir1BZO6h1nrkK9eUJXhMFU; __atuvc=32%7C43; c_a_u="YnJhbmRvbnZpbw==:1mgwqw:0Yq3XSiaV2QqD7Mm1dSWix7FTG8"; 87b5a3c3f1a55520_gr_session_id=00a8557f-17d2-4677-a7e9-fa6c4fc14122; 87b5a3c3f1a55520_gr_last_sent_sid_with_cs1=00a8557f-17d2-4677-a7e9-fa6c4fc14122; 87b5a3c3f1a55520_gr_session_id_00a8557f-17d2-4677-a7e9-fa6c4fc14122=true; 87b5a3c3f1a55520_gr_cs1=brandonvio' \
+--data-raw '{"query":"\n    query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {\n  problemsetQuestionList: questionList(\n    categorySlug: $categorySlug\n    limit: $limit\n    skip: $skip\n    filters: $filters\n  ) {\n    total: totalNum\n    questions: data {\n      acRate\n      difficulty\n      freqBar\n      frontendQuestionId: questionFrontendId\n      isFavor\n      paidOnly: isPaidOnly\n      status\n      title\n      titleSlug\n      topicTags {\n        name\n        id\n        slug\n      }\n      hasSolution\n      hasVideoSolution\n    }\n  }\n}\n    ","variables":{"categorySlug":"","skip":0,"limit":100,"filters":{"orderBy":"FRONTEND_ID","sortOrder":"ASCENDING","listId":"7p59281"}},"operationName":"problemsetQuestionList"}' \
+--compressed

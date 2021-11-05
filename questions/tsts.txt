@@ -1,0 +1,200 @@
+31,Next Permutation,Medium,88.37104298825984
+42,Trapping Rain Water,Hard,97.98666542284198
+50,Pow(x, n),Medium,74.80676222776907
+56,Merge Intervals,Medium,98.65777694856132
+65,Valid Number,Hard,46.40683835485815
+71,Simplify Path,Medium,64.87677801771525
+138,Copy List with Random Pointer,Medium,70.2397811950331
+139,Word Break,Medium,76.89792045910409
+140,Word Break II,Hard,68.97157435223826
+162,Find Peak Element,Medium,69.96327445633905
+173,Binary Search Tree Iterator,Medium,53.88339465801813
+199,Binary Tree Right Side View,Medium,67.06977336919547
+215,Kth Largest Element in an Array,Medium,85.85956845471763
+227,Basic Calculator II,Medium,78.57110390851165
+236,Lowest Common Ancestor of a Binary Tree,Medium,76.73095736584536
+238,Product of Array Except Self,Medium,74.71038367101904
+249,Group Shifted Strings,Medium,32.04741611522431
+282,Expression Add Operators,Hard,51.693928246771684
+301,Remove Invalid Parentheses,Hard,58.60481846235268
+314,Binary Tree Vertical Order Traversal,Medium,60.03866204363898
+317,Shortest Distance from All Buildings,Hard,54.933830349496105
+347,Top K Frequent Elements,Medium,72.59347290270608
+398,Random Pick Index,Medium,30.411230015938244
+408,Valid Word Abbreviation,Easy,24.832168951552294
+415,Add Strings,Easy,66.43742578483621
+426,Convert Binary Search Tree to Sorted Doubly Linked List,Medium,57.314480220579334
+523,Continuous Subarray Sum,Medium,54.33895240621149
+528,Random Pick with Weight,Medium,72.64291655129908
+536,Construct Binary Tree from String,Medium,21.74188544915487
+543,Diameter of Binary Tree,Easy,48.911158848490224
+560,Subarray Sum Equals K,Medium,91.65135897916029
+636,Exclusive Time of Functions,Medium,56.86901840430559
+670,Maximum Swap,Medium,43.785639409213445
+680,Valid Palindrome II,Easy,80.805806973201
+721,Accounts Merge,Medium,60.96527578013819
+766,Toeplitz Matrix,Easy,28.522511689858916
+791,Custom Sort String,Medium,30.235401262224116
+827,Making A Large Island,Hard,59.79049345538579
+921,Minimum Add to Make Parentheses Valid,Medium,45.909666179658174
+938,Range Sum of BST,Easy,60.93101219201515
+953,Verifying an Alien Dictionary,Easy,61.57137180850791
+973,K Closest Points to Origin,Medium,83.79833713476553
+987,Vertical Order Traversal of a Binary Tree,Hard,64.46140564431687
+1047,Remove All Adjacent Duplicates In String,Easy,56.89639850733897
+1249,Minimum Remove to Make Valid Parentheses,Medium,87.73184635192011
+1263,Minimum Moves to Move a Box to Their Target Location,Hard,39.6979956589734
+1428,Leftmost Column with at Least a One,Medium,33.76554682979537
+1570,Dot Product of Two Sparse Vectors,Medium,65.90979147673083
+1650,Lowest Common Ancestor of a Binary Tree III,Medium,61.608735498404435
+1762,Buildings With an Ocean View,Medium,57.95831376335522
+31,Next Permutation,Medium,88.37104298825984
+42,Trapping Rain Water,Hard,97.98666542284198
+50,Pow(x, n),Medium,74.80676222776907
+56,Merge Intervals,Medium,98.65777694856132
+65,Valid Number,Hard,46.40683835485815
+71,Simplify Path,Medium,64.87677801771525
+138,Copy List with Random Pointer,Medium,70.2397811950331
+139,Word Break,Medium,76.89792045910409
+140,Word Break II,Hard,68.97157435223826
+162,Find Peak Element,Medium,69.96327445633905
+173,Binary Search Tree Iterator,Medium,53.88339465801813
+199,Binary Tree Right Side View,Medium,67.06977336919547
+215,Kth Largest Element in an Array,Medium,85.85956845471763
+227,Basic Calculator II,Medium,78.57110390851165
+236,Lowest Common Ancestor of a Binary Tree,Medium,76.73095736584536
+238,Product of Array Except Self,Medium,74.71038367101904
+249,Group Shifted Strings,Medium,32.04741611522431
+282,Expression Add Operators,Hard,51.693928246771684
+301,Remove Invalid Parentheses,Hard,58.60481846235268
+314,Binary Tree Vertical Order Traversal,Medium,60.03866204363898
+317,Shortest Distance from All Buildings,Hard,54.933830349496105
+347,Top K Frequent Elements,Medium,72.59347290270608
+398,Random Pick Index,Medium,30.411230015938244
+408,Valid Word Abbreviation,Easy,24.832168951552294
+415,Add Strings,Easy,66.43742578483621
+426,Convert Binary Search Tree to Sorted Doubly Linked List,Medium,57.314480220579334
+523,Continuous Subarray Sum,Medium,54.33895240621149
+528,Random Pick with Weight,Medium,72.64291655129908
+536,Construct Binary Tree from String,Medium,21.74188544915487
+543,Diameter of Binary Tree,Easy,48.911158848490224
+560,Subarray Sum Equals K,Medium,91.65135897916029
+636,Exclusive Time of Functions,Medium,56.86901840430559
+670,Maximum Swap,Medium,43.785639409213445
+680,Valid Palindrome II,Easy,80.805806973201
+721,Accounts Merge,Medium,60.96527578013819
+766,Toeplitz Matrix,Easy,28.522511689858916
+791,Custom Sort String,Medium,30.235401262224116
+827,Making A Large Island,Hard,59.79049345538579
+921,Minimum Add to Make Parentheses Valid,Medium,45.909666179658174
+938,Range Sum of BST,Easy,60.93101219201515
+953,Verifying an Alien Dictionary,Easy,61.57137180850791
+973,K Closest Points to Origin,Medium,83.79833713476553
+987,Vertical Order Traversal of a Binary Tree,Hard,64.46140564431687
+1047,Remove All Adjacent Duplicates In String,Easy,56.89639850733897
+1249,Minimum Remove to Make Valid Parentheses,Medium,87.73184635192011
+1263,Minimum Moves to Move a Box to Their Target Location,Hard,39.6979956589734
+1428,Leftmost Column with at Least a One,Medium,33.76554682979537
+1570,Dot Product of Two Sparse Vectors,Medium,65.90979147673083
+1650,Lowest Common Ancestor of a Binary Tree III,Medium,61.608735498404435
+1762,Buildings With an Ocean View,Medium,57.95831376335522
+31,Next Permutation,Medium,88.37104298825984
+42,Trapping Rain Water,Hard,97.98666542284198
+50,Pow(x, n),Medium,74.80676222776907
+56,Merge Intervals,Medium,98.65777694856132
+65,Valid Number,Hard,46.40683835485815
+71,Simplify Path,Medium,64.87677801771525
+138,Copy List with Random Pointer,Medium,70.2397811950331
+139,Word Break,Medium,76.89792045910409
+140,Word Break II,Hard,68.97157435223826
+162,Find Peak Element,Medium,69.96327445633905
+173,Binary Search Tree Iterator,Medium,53.88339465801813
+199,Binary Tree Right Side View,Medium,67.06977336919547
+215,Kth Largest Element in an Array,Medium,85.85956845471763
+227,Basic Calculator II,Medium,78.57110390851165
+236,Lowest Common Ancestor of a Binary Tree,Medium,76.73095736584536
+238,Product of Array Except Self,Medium,74.71038367101904
+249,Group Shifted Strings,Medium,32.04741611522431
+282,Expression Add Operators,Hard,51.693928246771684
+301,Remove Invalid Parentheses,Hard,58.60481846235268
+314,Binary Tree Vertical Order Traversal,Medium,60.03866204363898
+317,Shortest Distance from All Buildings,Hard,54.933830349496105
+347,Top K Frequent Elements,Medium,72.59347290270608
+398,Random Pick Index,Medium,30.411230015938244
+408,Valid Word Abbreviation,Easy,24.832168951552294
+415,Add Strings,Easy,66.43742578483621
+426,Convert Binary Search Tree to Sorted Doubly Linked List,Medium,57.314480220579334
+523,Continuous Subarray Sum,Medium,54.33895240621149
+528,Random Pick with Weight,Medium,72.64291655129908
+536,Construct Binary Tree from String,Medium,21.74188544915487
+543,Diameter of Binary Tree,Easy,48.911158848490224
+560,Subarray Sum Equals K,Medium,91.65135897916029
+636,Exclusive Time of Functions,Medium,56.86901840430559
+670,Maximum Swap,Medium,43.785639409213445
+680,Valid Palindrome II,Easy,80.805806973201
+721,Accounts Merge,Medium,60.96527578013819
+766,Toeplitz Matrix,Easy,28.522511689858916
+791,Custom Sort String,Medium,30.235401262224116
+827,Making A Large Island,Hard,59.79049345538579
+921,Minimum Add to Make Parentheses Valid,Medium,45.909666179658174
+938,Range Sum of BST,Easy,60.93101219201515
+953,Verifying an Alien Dictionary,Easy,61.57137180850791
+973,K Closest Points to Origin,Medium,83.79833713476553
+987,Vertical Order Traversal of a Binary Tree,Hard,64.46140564431687
+1047,Remove All Adjacent Duplicates In String,Easy,56.89639850733897
+1249,Minimum Remove to Make Valid Parentheses,Medium,87.73184635192011
+1263,Minimum Moves to Move a Box to Their Target Location,Hard,39.6979956589734
+1428,Leftmost Column with at Least a One,Medium,33.76554682979537
+1570,Dot Product of Two Sparse Vectors,Medium,65.90979147673083
+1650,Lowest Common Ancestor of a Binary Tree III,Medium,61.608735498404435
+1762,Buildings With an Ocean View,Medium,57.95831376335522
+31,Next Permutation,Medium,88.37104298825984
+42,Trapping Rain Water,Hard,97.98666542284198
+50,Pow(x, n),Medium,74.80676222776907
+56,Merge Intervals,Medium,98.65777694856132
+65,Valid Number,Hard,46.40683835485815
+71,Simplify Path,Medium,64.87677801771525
+138,Copy List with Random Pointer,Medium,70.2397811950331
+139,Word Break,Medium,76.89792045910409
+140,Word Break II,Hard,68.97157435223826
+162,Find Peak Element,Medium,69.96327445633905
+173,Binary Search Tree Iterator,Medium,53.88339465801813
+199,Binary Tree Right Side View,Medium,67.06977336919547
+215,Kth Largest Element in an Array,Medium,85.85956845471763
+227,Basic Calculator II,Medium,78.57110390851165
+236,Lowest Common Ancestor of a Binary Tree,Medium,76.73095736584536
+238,Product of Array Except Self,Medium,74.71038367101904
+249,Group Shifted Strings,Medium,32.04741611522431
+282,Expression Add Operators,Hard,51.693928246771684
+301,Remove Invalid Parentheses,Hard,58.60481846235268
+314,Binary Tree Vertical Order Traversal,Medium,60.03866204363898
+317,Shortest Distance from All Buildings,Hard,54.933830349496105
+347,Top K Frequent Elements,Medium,72.59347290270608
+398,Random Pick Index,Medium,30.411230015938244
+408,Valid Word Abbreviation,Easy,24.832168951552294
+415,Add Strings,Easy,66.43742578483621
+426,Convert Binary Search Tree to Sorted Doubly Linked List,Medium,57.314480220579334
+523,Continuous Subarray Sum,Medium,54.33895240621149
+528,Random Pick with Weight,Medium,72.64291655129908
+536,Construct Binary Tree from String,Medium,21.74188544915487
+543,Diameter of Binary Tree,Easy,48.911158848490224
+560,Subarray Sum Equals K,Medium,91.65135897916029
+636,Exclusive Time of Functions,Medium,56.86901840430559
+670,Maximum Swap,Medium,43.785639409213445
+680,Valid Palindrome II,Easy,80.805806973201
+721,Accounts Merge,Medium,60.96527578013819
+766,Toeplitz Matrix,Easy,28.522511689858916
+791,Custom Sort String,Medium,30.235401262224116
+827,Making A Large Island,Hard,59.79049345538579
+921,Minimum Add to Make Parentheses Valid,Medium,45.909666179658174
+938,Range Sum of BST,Easy,60.93101219201515
+953,Verifying an Alien Dictionary,Easy,61.57137180850791
+973,K Closest Points to Origin,Medium,83.79833713476553
+987,Vertical Order Traversal of a Binary Tree,Hard,64.46140564431687
+1047,Remove All Adjacent Duplicates In String,Easy,56.89639850733897
+1249,Minimum Remove to Make Valid Parentheses,Medium,87.73184635192011
+1263,Minimum Moves to Move a Box to Their Target Location,Hard,39.6979956589734
+1428,Leftmost Column with at Least a One,Medium,33.76554682979537
+1570,Dot Product of Two Sparse Vectors,Medium,65.90979147673083
+1650,Lowest Common Ancestor of a Binary Tree III,Medium,61.608735498404435
+1762,Buildings With an Ocean View,Medium,57.95831376335522

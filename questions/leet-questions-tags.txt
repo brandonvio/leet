@@ -1,0 +1,51 @@
+Array: 104
+String: 72
+Hash Table: 41
+Dynamic Programming: 36
+Math: 35
+Depth-First Search: 28
+Tree: 27
+Binary Tree: 27
+Two Pointers: 26
+Matrix: 26
+Sorting: 25
+Stack: 24
+Breadth-First Search: 23
+Backtracking: 22
+Greedy: 20
+Design: 17
+Linked List: 16
+Binary Search: 14
+Heap (Priority Queue): 14
+Recursion: 11
+Sliding Window: 8
+Simulation: 8
+Monotonic Stack: 7
+Binary Search Tree: 7
+Trie: 7
+Divide and Conquer: 6
+Bit Manipulation: 6
+Graph: 6
+Interactive: 5
+Prefix Sum: 5
+Union Find: 4
+Memoization: 3
+Doubly-Linked List: 3
+Quickselect: 3
+Counting: 3
+Randomized: 3
+Geometry: 3
+Iterator: 2
+Topological Sort: 2
+Data Stream: 2
+Ordered Set: 2
+Merge Sort: 1
+String Matching: 1
+Combinatorics: 1
+Bucket Sort: 1
+Reservoir Sampling: 1
+Hash Function: 1
+Game Theory: 1
+Shortest Path: 1
+Queue: 1
+Monotonic Queue: 1
