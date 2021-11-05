@@ -10,7 +10,7 @@ phases:
       - project_name=leet
   build:
     commands:
-      # service
+      # service 11/4
       - cd $CODEBUILD_SRC_DIR/dsa-python
       - pip install -r requirements.txt
       - pytest
