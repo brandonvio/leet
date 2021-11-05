@@ -12,7 +12,7 @@ phases:
     commands:
       # service
       - cd $CODEBUILD_SRC_DIR/dsa-python
-      - pip install requirements
+      - pip install -r requirements.txt
       - pytest
       - aws cp pytest_html_report.html s3://leet.brandonv.io
       - aws cp output.json s3://leet.brandonv.io
