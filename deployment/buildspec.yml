@@ -14,5 +14,5 @@ phases:
       - cd $CODEBUILD_SRC_DIR/dsa-python
       - pip install -r requirements.txt
       - pytest -v -s --html-report=./report
-      - aws s3 cp pytest_html_report.html s3://leet.brandonv.io
-      - aws s3 cp output.json s3://leet.brandonv.io
+      - aws s3 cp report/pytest_html_report.html s3://leet.brandonv.io
+      - aws s3 cp report/output.json s3://leet.brandonv.io
