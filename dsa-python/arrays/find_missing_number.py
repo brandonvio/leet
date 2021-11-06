@@ -29,6 +29,3 @@ def find_missing_2(arr1: List[int], arr2: List[int]):
             return val
         else:
             d[val] -= 1
-
-
-print(find_missing_2([1, 2, 3, 4, 5, 6, 7], [3, 7, 2, 1, 4, 6]))

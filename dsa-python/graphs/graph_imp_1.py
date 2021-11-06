@@ -60,14 +60,3 @@ class Graph:
         for v in self.vertices:
             _str += str(self.vertices[v]) + "\n"
         return _str
-
-
-if __name__ == "__main__":
-    g = Graph()
-    for i in range(6):
-        g.add_vertex(i)
-
-    print(g)
-    g.add_edge(0, 1, 10)
-    g.add_edge(1, 2, 9)
-    print(g)
