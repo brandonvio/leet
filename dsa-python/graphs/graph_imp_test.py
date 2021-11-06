@@ -51,7 +51,7 @@ def test_dfs_graph():
              'F': set(['C', 'E'])}
 
     result = dfs(graph, "A")
-    print(result)
+    # print(result)
 
 
 def test_bfs_graph():
@@ -77,4 +77,4 @@ def test_bfs_graph():
              'F': set(['C', 'E'])}
 
     result = bfs(graph, "A")
-    print(result)
+    # print(result)
