@@ -4,7 +4,6 @@ from collections import OrderedDict
 
 
 def test_graph():
-    print("")
     g = Graph()
     assert g
 
