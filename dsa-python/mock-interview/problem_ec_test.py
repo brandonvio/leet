@@ -106,10 +106,6 @@ def test_problem_ec_2():
 
 
 def test_problem_ec_2_correct():
-    """
-    This is a brute force solution n^2 time. Working on solution for better time.
-    """
-
     def solution(arr: List[int]) -> List[int]:
         output_list = [None] * len(arr)
 
