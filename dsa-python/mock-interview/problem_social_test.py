@@ -118,7 +118,7 @@ def test_problem_social_3():
             for time in range(count):
                 sorted_prices.append(price)
 
-        return sorted_proces
+        return sorted_prices
 
 
 """
