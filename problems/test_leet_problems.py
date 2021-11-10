@@ -1,6 +1,50 @@
 from typing import List, Dict
 
 
+def test_countBinarySubstrings():
+    """
+    # 696. Count Binary Substrings
+    Give a binary string s, return the number of non-empty substrings that have the same number of 0's and 1's, and all the 0's and all the 1's in these substrings are grouped consecutively.
+
+    Substrings that occur multiple times are counted the number of times they occur.
+
+    Example 1:
+    Input: s = "00110011"
+    Output: 6
+    Explanation: There are 6 substrings that have equal number of consecutive 1's and 0's: "0011", "01", "1100", "10", "0011", and "01".
+    Notice that some of these substrings repeat and are counted the number of times they occur.
+    Also, "00110011" is not a valid substring because all the 0's (and 1's) are not grouped together.
+
+    Example 2:
+    Input: s = "10101"
+    Output: 4
+    Explanation: There are 4 substrings: "10", "01", "10", "01" that have equal number of consecutive 1's and 0's.
+    https://www.youtube.com/watch?v=OJWKzff4Ivg
+    """
+
+    class Solution:
+        def countBinarySubstrings(self, s: str) -> int:
+            prev_count, curr_count, total_groups = 0, 1, 0
+            for i in range(1, len(s)):
+                if s[i] == s[i - 1]:
+                    curr_count += 1
+                else:
+                    total_groups += min(prev_count, curr_count)
+                    prev_count = curr_count
+                    curr_count = 1
+            total_groups += min(prev_count, curr_count)
+            return total_groups
+
+    _solution = Solution()
+    result = _solution.countBinarySubstrings("00110011")
+    # print(result)
+    assert result == 6
+
+    result = _solution.countBinarySubstrings("10101")
+    # print(result)
+    assert result == 4
+
+
 def test_reorderLogFiles():
     """
     You are given an array of logs. Each log is a space-delimited string of words, where the first word is the identifier.
@@ -50,12 +94,12 @@ def test_reorderLogFiles():
     _solution = Solution()
     logs = ["dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"]
     result = _solution.reorderLogFiles(logs)
-    print(result)
+    # print(result)
     assert result == ["let1 art can", "let3 art zero", "let2 own kit dig", "dig1 8 1 5 1", "dig2 3 6"]
 
     logs = ["a1 9 2 3 1", "g1 act car", "zo4 4 7", "ab1 off key dog", "a8 act zoo"]
     result = _solution.reorderLogFiles(logs)
-    print(result)
+    # print(result)
     assert result == ["g1 act car", "a8 act zoo", "ab1 off key dog", "a1 9 2 3 1", "zo4 4 7"]
 
 
