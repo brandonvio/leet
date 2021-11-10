@@ -1,6 +1,7 @@
 from typing import List
 from collections import defaultdict
 
+
 def test_problem_social_0():
     def remove_dup(s: str) -> str:
         tracker = set()
@@ -49,6 +50,7 @@ def test_problem_social_1():
     assert result == False
     # print(result)
 
+
 def test_problem_social_2():
     """
     Problem
@@ -74,26 +76,26 @@ def test_problem_social_2():
     assert result == 7
 
 
-def test_problem_social_2_xor():
-    """
-    Problem
-    Given a list of account ID numbers (integers) which contains duplicates , find the one unique integer. (the list is guaranteed to only have one unique (non-duplicated) integer
-
-    Requirements
-    Do not use built-in Python functions or methods
-    """
-
-    def find_unique(nums: List[int]) -> int:
-        unique_id = 0
-
-        for i in nums:
-            unique_id ^= i
-
-        return unique_id
-
-    result = find_unique([1, 1, 3, 7, 3, 3, 4, 4])
-    print(result)
-    assert result == 7
+# def test_problem_social_2_xor():
+#     """
+#     Problem
+#     Given a list of account ID numbers (integers) which contains duplicates , find the one unique integer. (the list is guaranteed to only have one unique (non-duplicated) integer
+#
+#     Requirements
+#     Do not use built-in Python functions or methods
+#     """
+#
+#     def find_unique(nums: List[int]) -> int:
+#         unique_id = 0
+#
+#         for i in nums:
+#             unique_id ^= i
+#
+#         return unique_id
+#
+#     result = find_unique([1, 1, 3, 7, 3, 3, 4, 4])
+#     print(result)
+#     assert result == 7
 
 
 def test_problem_social_3():
@@ -106,7 +108,7 @@ def test_problem_social_3():
     """
 
     def sort(prices: List[int], max_price: int) -> List[int]:
-        prices_to_counts = [0]*(max_price + 1)
+        prices_to_counts = [0] * (max_price + 1)
 
         for price in prices:
             prices_to_counts[price] += 1
@@ -117,19 +119,6 @@ def test_problem_social_3():
                 sorted_prices.append(price)
 
         return sorted_proces
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 """
