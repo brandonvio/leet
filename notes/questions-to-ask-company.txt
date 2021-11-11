@@ -1,3 +1,6 @@
+696. Count Binary Substrings
+
+
 https://www.udemy.com/course/python-for-data-structures-algorithms-and-interviews/learn/lecture/4259166#overview
 
 

@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "fetch.js",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
-    "node-fetch": "^3.0.0"
+    "@aws-sdk/client-dynamodb": "^3.41.0",
+    "handlebars": "^4.7.7",
+    "node-fetch": "^3.0.0",
+    "pg": "^8.7.1"
   },
   "devDependencies": {},
   "scripts": {

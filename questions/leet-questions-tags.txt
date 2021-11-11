@@ -1,51 +1,53 @@
-Array: 104
-String: 72
-Hash Table: 41
-Dynamic Programming: 36
-Math: 35
-Depth-First Search: 28
-Tree: 27
-Binary Tree: 27
-Two Pointers: 26
-Matrix: 26
+Array: 89
+String: 56
+Hash Table: 38
+Depth-First Search: 29
 Sorting: 25
-Stack: 24
-Breadth-First Search: 23
-Backtracking: 22
-Greedy: 20
-Design: 17
-Linked List: 16
-Binary Search: 14
-Heap (Priority Queue): 14
-Recursion: 11
-Sliding Window: 8
+Greedy: 24
+Math: 24
+Breadth-First Search: 24
+Dynamic Programming: 23
+Design: 23
+Tree: 21
+Binary Tree: 21
+Stack: 20
+Heap (Priority Queue): 19
+Matrix: 18
+Two Pointers: 15
+Binary Search: 11
+Graph: 11
+Backtracking: 9
+Linked List: 9
 Simulation: 8
-Monotonic Stack: 7
-Binary Search Tree: 7
-Trie: 7
-Divide and Conquer: 6
-Bit Manipulation: 6
-Graph: 6
+Trie: 8
+Sliding Window: 8
+Union Find: 7
+Monotonic Stack: 6
+Counting: 6
+Prefix Sum: 6
+Divide and Conquer: 5
+Recursion: 5
 Interactive: 5
-Prefix Sum: 5
-Union Find: 4
-Memoization: 3
-Doubly-Linked List: 3
+Doubly-Linked List: 4
+Binary Search Tree: 4
+Iterator: 3
+Topological Sort: 3
 Quickselect: 3
-Counting: 3
-Randomized: 3
+Queue: 3
+Ordered Set: 3
 Geometry: 3
-Iterator: 2
-Topological Sort: 2
+Merge Sort: 2
+Monotonic Queue: 2
 Data Stream: 2
-Ordered Set: 2
-Merge Sort: 1
-String Matching: 1
-Combinatorics: 1
+Randomized: 2
+Hash Function: 2
+Game Theory: 2
+Bit Manipulation: 2
+Memoization: 1
+Binary Indexed Tree: 1
+Segment Tree: 1
 Bucket Sort: 1
-Reservoir Sampling: 1
-Hash Function: 1
-Game Theory: 1
+Enumeration: 1
+Minimum Spanning Tree: 1
+Biconnected Component: 1
 Shortest Path: 1
-Queue: 1
-Monotonic Queue: 1
