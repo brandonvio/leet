@@ -1,0 +1,16 @@
+def test_template():
+    """
+    """
+
+    class Solution:
+        def replaceMe(self, s: str) -> int:
+            pass
+
+    _solution = Solution()
+    result = _solution.replaceMe(None)
+    # print(result)
+    assert result == None
+
+    result = _solution.replaceMe(None)
+    # print(result)
+    assert result == None
