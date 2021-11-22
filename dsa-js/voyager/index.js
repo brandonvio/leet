@@ -1,7 +1,10 @@
 import WebSocket from 'ws'
 import { logUpdateStderr } from 'log-update'
+import { PriceDb } from './price-db.js'
 
 const API_KEY = process.env.CRYPTOCOMPARE_API_KEY
+const priceDb = new PriceDb()
+priceDb.connect()
 
 const ws = new WebSocket(
     `wss://streamer.cryptocompare.com/v2?api_key=${API_KEY}`,
@@ -30,22 +33,22 @@ ws.on('open', function open() {
     ws.send(JSON.stringify(sub))
 })
 
-ws.on('message', function message(data) {
+ws.on('message', async function message(data) {
     // console.log('received: %s', JSON.parse(data))
-    updateStatus(JSON.parse(data))
+    await updateStatus(JSON.parse(data))
+})
+
+ws.on('error', (error) => {
+    console.log(error)
 })
 
 const prices = {}
-function updateStatus(msg) {
+async function updateStatus(msg) {
     if (msg.TYPE === '2') {
         const priceKey = msg.MARKET + '_' + msg.FROMSYMBOL + '_' + msg.TOSYMBOL
         if (msg.PRICE) {
+            await priceDb.savePrice(msg)
             prices[priceKey] = msg.PRICE
-            // prices.push({
-            //     exchange: msg.MARKET,
-            //     fromSymbol: msg.FROMSYMBOL,
-            //     toSymbol: msg.TOSYMBOL,
-            // })
             let logMsg = ''
             for (const key in prices) {
                 logMsg += `${key}: ${prices[key]}\n`

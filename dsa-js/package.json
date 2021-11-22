@@ -13,7 +13,9 @@
     "dependencies": {
         "axios": "^0.24.0",
         "eslit": "^6.0.0",
+        "express": "^4.17.1",
         "log-update": "^5.0.0",
+        "pg": "^8.7.1",
         "websocket": "^1.0.34",
         "ws": "^8.2.3"
     },
