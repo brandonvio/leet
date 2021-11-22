@@ -1,10 +1,6 @@
 import { logUpdateStderr } from 'log-update'
-import { promisify } from 'util'
-import * as fs from 'fs'
+
 var toX = () => 'X'
-const writeFile = promisify(fs.writeFile)
-const unlink = promisify(fs.unlink)
-const readdir = promisify(fs.readdir)
 const delay = (seconds) => {
     return new Promise((resolves) => {
         console.log(`Delaying for ${seconds}...`)
@@ -13,8 +9,8 @@ const delay = (seconds) => {
 }
 
 const tasks = []
-for (let i = 0; i < 50; i++) {
-    tasks.push(delay(Math.floor(Math.random() * 20)))
+for (let i = 0; i < 25; i++) {
+    tasks.push(delay(i))
 }
 
 class PromiseQueue {
@@ -53,32 +49,5 @@ complete: [${complete.map(toX)}]
     }
 }
 
-var delayQueue = new PromiseQueue(tasks, 2)
+var delayQueue = new PromiseQueue(tasks, 5)
 delayQueue.run()
-
-// Promise.all([
-//   writeFile('readme.txt', 'Hello World!'),
-//   writeFile('readme.md', 'Hello World!'),
-//   delay(3),
-//   writeFile('readme.json', JSON.stringify({ "hello": "Hello World!" })),
-// ]).then(() => readdir(__dirname))
-//   .then(console.log)
-
-// const start = async() => {
-//   console.log("start...")
-//   await writeFile("test.txt", "testing...")
-//   await delay(3)
-//   console.log("done waiting 3...")
-//   await delay(2)
-//   console.log("done waiting 2...")
-//   await delay(1)
-//   console.log("done waiting 1...")
-//   // throw new Error("this thing failed")
-//   return Promise.resolve()
-// }
-
-// start().then(() => {
-//   console.log("finished!")
-// }).catch(error => {
-//   console.log(error)
-// })

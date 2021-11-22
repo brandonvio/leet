@@ -11,6 +11,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "log-update": "^5.0.0"
+        "axios": "^0.24.0",
+        "eslit": "^6.0.0",
+        "log-update": "^5.0.0",
+        "websocket": "^1.0.34",
+        "ws": "^8.2.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.3.0"
     }
 }
