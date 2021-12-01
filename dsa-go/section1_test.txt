@@ -1,0 +1,27 @@
+package main
+
+import (
+	"log"
+	"math"
+	"strconv"
+	"testing"
+)
+
+func TestHelloName(t *testing.T) {
+	// name := "Gladys"
+	// want := regexp.MustCompile(`\b`+name+`\b`)
+	// msg, err := Hello("Gladys")
+	// if !want.MatchString(msg) || err != nil {
+	//     t.Fatalf(`Hello("Gladys") = %q, %v, want match for %#q, nil`, msg, err, want)
+	// }
+	log.Println("Testing! Again!")
+	log.Println("section 1:6")
+	for i := 0; i < 10; i++ {
+		if i > 5 {
+			log.Println("2 to the power of "+strconv.Itoa(i), math.Pow(2, float64(i)))
+		} else {
+			log.Println("3 to the power of "+strconv.Itoa(i), math.Pow(3, float64(i)))
+			log.Println("5 to the power of "+strconv.Itoa(i), math.Pow(5, float64(i)))
+		}
+	}
+}

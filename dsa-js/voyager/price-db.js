@@ -23,7 +23,7 @@ export class PriceDb {
             record.FROMSYMBOL,
             record.TOSYMBOL,
             record.MARKET,
-            new Date(record.LASTUPDATE),
+            new Date(record.LASTUPDATE * 1000),
             record.PRICE,
             record,
         ]
