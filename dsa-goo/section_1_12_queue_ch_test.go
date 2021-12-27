@@ -2,32 +2,29 @@ package main
 
 import (
 	. "github.com/smartystreets/goconvey/convey"
-	"log"
 	"testing"
 )
 
 type Queue2 struct {
-	items []int
+	items chan int
 }
 
 func (s *Queue2) Enqueue(item int) {
-	s.items = append(s.items, item)
+	s.items <- item
 }
 
 func (s *Queue2) Deque() int {
-	left := len(s.items)
-	if left == 0 {
-		return -1
-	}
-	item, items := s.items[0], s.items[1:]
-	log.Println(item, items)
-	s.items = items
-	return item
+	return <- s.items
 }
 
+
 func TestSection1_12_1(t *testing.T) {
-	Convey("Queue...", t, func() {
-		s := Queue{}
+	s := Queue2{
+		items: make(chan int, 16),
+	}
+
+	Convey("Queue2...", t, func() {
+
 		s.Enqueue(0)
 		s.Enqueue(11)
 		s.Enqueue(12)
@@ -39,7 +36,5 @@ func TestSection1_12_1(t *testing.T) {
 		So(s.Deque(), ShouldEqual, 12)
 		So(s.Deque(), ShouldEqual, 133)
 		So(s.Deque(), ShouldEqual, 145)
-		So(s.Deque(), ShouldEqual, -1)
-		So(s.Deque(), ShouldEqual, -1)
 	})
 }
